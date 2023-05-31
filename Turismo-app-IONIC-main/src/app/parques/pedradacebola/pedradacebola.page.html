@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pedra da Cebola</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-slides pager="true">
+        <ion-slide>
+          <ion-img src="https://esbrasil.com.br/wp-content/uploads/2019/01/CAB_2497.jpg"></ion-img>
+        </ion-slide>
+        <ion-slide>
+          <ion-img src="https://esbrasil.com.br/wp-content/uploads/2019/01/CAB_2505.jpg"></ion-img>
+        </ion-slide>
+        <ion-slide>
+          <ion-img src="https://esbrasil.com.br/wp-content/uploads/2019/01/CAB_2581-630x420.jpg"></ion-img>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-header>
+    <ion-card-content>
+      O nome do parque deriva de uma grande pedra esculpida pela natureza que repousa sobre outra rocha. Devido a seu
+      compartamento geológico, a pedra se "descama" de maneira similar às palhas de uma cebola.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="location-outline" slot="start"></ion-icon>
+      <ion-label>Endereço</ion-label>
+      <ion-button fill="outline" 
+        href="https://www.google.com/maps/place/Parque+Pedra+da+Cebola+-+R.+Ana+Vi%C3%AAira+Mafra,+s%2Fn+-+Mata+da+Praia,+Vit%C3%B3ria+-+ES,+29066-010/@-20.2781847,-40.2979867,15z/data=!4m2!3m1!1s0xb81804ad481d6f:0x71875203a67637ac"
+        target="blank">
+        Ver no mapa
+      </ion-button>
+    </ion-item>
+    <ion-card-content>
+      Entre as ruas Ana Vieira Mafra e João Baptista Celestino (acesso ao estacionamento) e a Avenida Fernando Ferrari,
+      bairro Mata da Praia.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="time-outline" slot="start"></ion-icon>
+      <ion-label>Horário de Funcionamento</ion-label>
+    </ion-item>
+    <ion-card-content>
+      De terça a domingo, das 5 às 22 horas.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="wifi-outline" slot="start"></ion-icon>
+      <ion-label>Internet Livre (Vitória Online)</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="happy-outline" slot="start"></ion-icon>
+      <ion-label>Parquinhos</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="football-outline" slot="start"></ion-icon>
+      <ion-label>Campo de Futebol</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>
